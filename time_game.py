@@ -1,6 +1,4 @@
-
 import time
-
 # "enter the time in (24 hr clock)
 current_time = time.localtime().tm_hour
 timestamp = time.strftime("%m/%d/%Y, \n%H:%M:%S")
